@@ -1,0 +1,73 @@
+/**
+
+I N D E X . H T M L
+
+*/
+
+
+
+body {
+    background-color: #fffcf9;
+}
+
+h1 {
+    color: #ff6978;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+
+
+p,
+label {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    color: #352d39;
+}
+
+input {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    color: #352d39;
+    background-color: #b1ede8;
+    border-radius: 10px;
+    border: #ff6978;
+}
+
+
+img {
+    border-radius: 30px;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #b1ede8;
+    width: 100%;
+    padding: 50px;
+}
+
+
+nav{
+    width: 100%;
+    padding: 30px;
+    background-color: #6d435a;
+    margin: 0;
+}
+
+ul{
+    
+}
+
+li {
+    color: #fffcf9;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 20px;
+    display: inline;
+}
+
+
+

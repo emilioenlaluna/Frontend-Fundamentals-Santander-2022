@@ -77,3 +77,48 @@ main section.video input::placeholder{
     font-size: 0.5em;
     padding-left: 1em;
  }
+
+
+main section.awards{
+    background-color: #de541e;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+main section.awards button{
+   padding: 2em;
+   border-radius: 4em;
+   border-style: none;
+   font-family: 'Ysabeau', sans-serif;
+   color: white;
+   background-color: #3f3f37;
+   font-size: 0.5em;
+}
+
+main section.awards article.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3em;
+    font-size:0.7em;
+    padding: 1em;
+    align-items: center;
+}
+
+main section.awards article.card img{
+    height: 15em;
+    width: 15em;
+    border-radius: 5em;
+}
+
+
+main section.awards article.card #everly{
+    background-color: #3f3f37;
+    padding: 2em;
+    border-radius: 5em;
+    color: whitesmoke;
+    position: relative;
+    top: -2em;
+    left: 4em;
+}

@@ -6,6 +6,12 @@ body{
 }
 
 
+header nav {
+    position: fixed;
+    width: 100%; 
+    z-index: 100;
+}
+
 header nav ul{
     
     display: flex;
@@ -30,6 +36,7 @@ main section.img-hero{
      flex-direction: row;
      align-items: center;
      justify-content: center;
+     padding-top: 5em;
 }
 
 main section.img-hero img{
@@ -121,4 +128,5 @@ main section.awards article.card #everly{
     position: relative;
     top: -2em;
     left: 4em;
+   
 }

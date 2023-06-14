@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 2em;
+    background-color: #d6d6b1;
+}
+
+
+header nav {
+    position: fixed;
+    width: 100%; 
+    z-index: 100;
+}
+
+header nav ul{
+    
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0.5em;
+    padding: 0.5em;
+    align-items: center;
+    background-color: #494331;
+    border-radius: 15em;
+    
+}
+
+
+main section.img-hero{
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding-top: 5em;
+}
+
+main section.img-hero img{
+    border-radius: 3em;
+    height: 70%;
+    width: 70%;
+}
+
+main section.video{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin: 1em;
+     padding: 1em;
+}
+
+main section.video video{
+    border-radius: 3em;
+    margin: 1em;
+    
+}
+
+main section.video h2{
+    color:#de541e;
+}
+
+main section.video p{
+    color:#3f3f37;
+}
+
+main section.video input{
+   border-radius: 1em;
+   background-color: #de541e;
+   color: white;
+   font-family: 'Ysabeau', sans-serif;
+   font-size: 1em;
+   border-style: none;
+}
+
+
+main section.video input::placeholder{
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 0.5em;
+    padding-left: 1em;
+ }
+
+
+main section.awards{
+    background-color: #de541e;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+main section.awards button{
+   padding: 2em;
+   border-radius: 4em;
+   border-style: none;
+   font-family: 'Ysabeau', sans-serif;
+   color: white;
+   background-color: #3f3f37;
+   font-size: 0.5em;
+}
+
+main section.awards article.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3em;
+    font-size:0.7em;
+    padding: 1em;
+    align-items: center;
+}
+
+main section.awards article.card img{
+    height: 15em;
+    width: 15em;
+    border-radius: 5em;
+}
+
+
+main section.awards article.card #everly{
+    background-color: #3f3f37;
+    padding: 2em;
+    border-radius: 5em;
+    color: whitesmoke;
+    position: relative;
+    top: -2em;
+    left: 4em;
+   
+}
+
+
+/*
+Seccion features
+*/
+
+main section.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    /*
+ grid-template: repeat(3,1fr)/repeat(2,1fr);
+    */
+   
+}

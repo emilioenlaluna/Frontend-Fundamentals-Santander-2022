@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: 'Ysabeau', sans-serif;
     font-size: 2em;
@@ -8,12 +8,12 @@ body{
 
 header nav {
     position: fixed;
-    width: 100%; 
+    width: 100%;
     z-index: 100;
 }
 
-header nav ul{
-    
+header nav ul {
+
     display: flex;
     color: white;
     flex-direction: row;
@@ -27,108 +27,108 @@ header nav ul{
     align-items: center;
     background-color: #494331;
     border-radius: 15em;
-    
+
 }
 
 
-main section.img-hero{
+main section.img-hero {
     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     padding-top: 5em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
 }
 
-main section.img-hero img{
+main section.img-hero img {
     border-radius: 3em;
     height: 70%;
     width: 70%;
 }
 
-main section.video{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     margin: 1em;
-     padding: 1em;
+main section.video {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
 }
 
-main section.video video{
+main section.video video {
     border-radius: 3em;
     margin: 1em;
-    
+
 }
 
-main section.video h2{
-    color:#de541e;
+main section.video h2 {
+    color: #de541e;
 }
 
-main section.video p{
-    color:#3f3f37;
+main section.video p {
+    color: #3f3f37;
 }
 
-main section.video input{
-   border-radius: 1em;
-   background-color: #de541e;
-   color: white;
-   font-family: 'Ysabeau', sans-serif;
-   font-size: 1em;
-   border-style: none;
+main section.video input {
+    border-radius: 1em;
+    background-color: #de541e;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1em;
+    border-style: none;
 }
 
 
-main section.video input::placeholder{
+main section.video input::placeholder {
     color: white;
     font-family: 'Ysabeau', sans-serif;
     font-size: 0.5em;
     padding-left: 1em;
- }
+}
 
 
-main section.awards{
+main section.awards {
     background-color: #de541e;
     padding: 3em;
     display: flex;
     flex-direction: row;
 }
 
-main section.awards button{
-   padding: 2em;
-   border-radius: 4em;
-   border-style: none;
-   font-family: 'Ysabeau', sans-serif;
-   color: white;
-   background-color: #3f3f37;
-   font-size: 0.5em;
+main section.awards button {
+    padding: 2em;
+    border-radius: 4em;
+    border-style: none;
+    font-family: 'Ysabeau', sans-serif;
+    color: white;
+    background-color: #3f3f37;
+    font-size: 0.5em;
 }
 
-main section.awards article.card{
+main section.awards article.card {
     display: flex;
     flex-direction: column;
     background-color: rgb(240, 240, 240);
     border-radius: 3em;
-    font-size:0.7em;
+    font-size: 0.7em;
     padding: 1em;
     align-items: center;
 }
 
-main section.awards article.card img{
+main section.awards article.card img {
     height: 15em;
     width: 15em;
     border-radius: 5em;
 }
 
 
-main section.awards article.card #everly{
-    background-color: #3f3f37;
+main section.awards article.card #everly {
+    background-color: #9b9b82;
     padding: 2em;
     border-radius: 5em;
     color: whitesmoke;
     position: relative;
     top: -2em;
     left: 4em;
-   
+
 }
 
 
@@ -136,13 +136,130 @@ main section.awards article.card #everly{
 Seccion features
 */
 
-main section.features{
+main section.features {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
+    background-color: #3f3f37;
     /*
  grid-template: repeat(3,1fr)/repeat(2,1fr);
     */
-   
+
+}
+
+
+main section.features .feature-image img {
+    border-radius: 5em;
+    width: 150%;
+    height: 150%;
+}
+
+
+main section.features .feature-content img {
+    border-radius: 2em;
+    width: 40%;
+    height: 40%;
+}
+
+main section.features article {
+    margin: 10%;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #d6d6b1;
+    border-radius: 5em;
+}
+
+
+main section.features a {
+    text-decoration: none;
+    background-color: #494331;
+    padding: 10%;
+    border-radius: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10%;
+}
+
+
+/*
+Seccion how it work
+*/
+
+main section.how .head-how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+main section.how .head-how button {
+    background-color: #3f3f37;
+    padding: 2%;
+    border-radius: 5em;
+    border-style: none;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: .75em;
+}
+
+main section.how {
+    width: 100%;
+}
+
+main section.how .cards {
+    width: 100%;
+
+}
+
+main section.how .cards {
+    width: 100%;
+}
+
+main section.how p {
+    font-size: .6em;
+}
+
+main section.how .cards .cards-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    padding: 2%;
+    align-items: start; /* Alinear los elementos al inicio */
+}
+
+main section.how .cards .cards-container .feature-card .feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: fle;
+    padding: 1em;
+    align-self: flex-start; /* Alinear el contenido en la parte superior */
+}
+
+main section.how .cards a {
+    text-decoration: none;
+    background-color: #3f3f37;
+    padding: 1em;
+    border-radius: 5em;
+    border-style: none;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: .75em;
+}
+
+main section.how .cards .cards-container .feature-card .feature-image {
+    width: 8em; /* Cambia el valor según el tamaño deseado */
+    height: 8em; /* Cambia el valor según el tamaño deseado */
+}
+
+main section.how .cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para asegurar que la imagen ocupe todo el espacio sin deformarse */
+    border-radius: 3em;
 }

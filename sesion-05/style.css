@@ -236,7 +236,6 @@ main section.how .cards .cards-container .feature-card .feature-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: fle;
     padding: 1em;
     align-self: flex-start; /* Alinear el contenido en la parte superior */
 }
@@ -263,3 +262,5 @@ main section.how .cards img {
     object-fit: cover; /* Para asegurar que la imagen ocupe todo el espacio sin deformarse */
     border-radius: 3em;
 }
+
+

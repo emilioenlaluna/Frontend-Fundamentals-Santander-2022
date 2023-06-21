@@ -1,0 +1,42 @@
+sass style.scss style.css
+
+sass --watch style.scss:style.css
+
+
+Variables de css 
+
+:root{
+  --primary-color:rgb(189, 38, 38);
+  --secondodar:#ff5;
+  
+}
+
+
+p{
+
+    background-color:var(--primary-color);
+}
+
+
+h1{
+    $primary-color:red !global;
+}
+
+button{
+    &:hover{
+
+    }
+}
+
+section{
+    margin{
+        top:78px;
+        left:12rem;
+    }
+
+    transition{
+        animation:left;
+        color:red;
+    }
+}
+

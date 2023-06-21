@@ -1,0 +1,18 @@
+{
+  "name": "prework07",
+  "version": "1.0.0",
+  "description": "codigo de la app de video de prework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prework"
+  ],
+  "author": "emilio luna",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "nodemon": "^2.0.22"
+  }
+}

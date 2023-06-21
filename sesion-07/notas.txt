@@ -1,0 +1,77 @@
+gem install sass
+
+
+npm i 
+
+
+npm install nodemon -g
+
+
+npm ls
+npm list -g --depth
+
+nom un nodemon -g
+
+npm uninstall
+
+
+-------------
+
+versionado
+
+
+sematico
+
+2.5.3
+major minor patch
+
+major (rompen compatblidad hacia atras)
+minor (funcionalidades, compatibles atraas)
+patch (corregir bugs)
+
+
+
+npm install chalk@2.3.0
+@4.30.3
+
+
+"chalk":"~3.23.1"
+
+
+--ver npm depednceues outeded
+
+npm outdated
+
+actualir a las nueva version
+
+npm update
+
+^2.35
+
+"chal":"^2.36"
+minor y patch
+
+
+-----
+actualizar 
+
+npm install chalk@latest
+@latest
+
+----------------------
+
+
+instalar paquetes nuevamene
+
+npm install
+
+
+
+
+https://awik.io/generate-random-images-unsplash-without-using-api/
+
+
+
+ID: 811 8259 4696
+
+CA: FDJS2023s
